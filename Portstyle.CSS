@@ -1,0 +1,111 @@
+/* General Styling */
+
+body {
+	font-family: Arial, sans-serif; 
+	margin: 0; background-color: #f4f4f4; 
+	color: #333;
+}
+
+/* Header */
+
+header {
+	background-color: #333; 
+	text-align: center 
+	color: white;
+	padding: 30px;
+}
+
+/* Navigation */
+
+nav {
+     background-color: #555;
+     text-align: center;
+     padding: 15px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 15px;
+}
+
+	nav a:hover {
+	color: yellow;
+}
+
+/* Sections */
+
+section {
+	background-color: white;
+	margin: 20px;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+h2 {
+	color: #333;
+ }
+
+/* Profile Image */
+
+img {
+	border-radius: 50%;
+}
+
+/* Projects */
+
+.project {
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin: 10px 0; 
+	border-radius: 8px; 
+	background-color: #f9f9f9;
+}
+
+/* Form */
+
+form {
+	width: 400px;
+	max-width: 100%;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input,
+
+textarea {
+	 width: 100%;
+	 padding: 10px;
+	 margin-top: 5px;
+	 box-sizing: border-box;
+}
+
+textarea {
+	 height: 100px;
+}
+
+button {
+	margin-top: 15px;
+	padding: 10px 20px;
+	background-color: #333;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #777;
+}
+
+/* Footer */
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
